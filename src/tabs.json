@@ -1,0 +1,22 @@
+{
+    "tabs": [
+        {
+            "id": "dummyTable",
+            "title": "Dummy Table",
+            "order": 1,
+            "path": "routes/dummyTable.js"
+        },
+        {
+            "id": "dummyChart",
+            "title": "Dummy Chart",
+            "order": 2,
+            "path": "routes/dummyChart.js"
+        },
+        {
+            "id": "dummyList",
+            "title": "Dummy List",
+            "order": 0,
+            "path": "routes/dummyList.js"
+        }
+    ]
+}
