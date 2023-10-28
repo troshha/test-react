@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { redirect } from 'react-router-dom';
 
 const DummyChart = () => (
     <>
@@ -15,9 +15,7 @@ const DummyChart = () => (
                 </tr>
             </tbody>
         </table>
-        <button>
-            <Link to={'test-react/'}>Back</Link>
-        </button>
+        <button onClick={() => redirect('test-react/')}>Back</button>
     </>
 );
 
