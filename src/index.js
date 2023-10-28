@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         ),
     })),
     {
-        path: '/',
+        path: 'test-react/',
         element: <App />,
     },
 ]);
