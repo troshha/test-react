@@ -8,7 +8,7 @@ import Tab from './Tab';
 
 const router = createBrowserRouter([
     ...tabs.tabs.map((tab) => ({
-        path: tab.path,
+        path: `test-react/${tab.path}`,
         element: (
             <React.Suspense fallback={<>loading</>}>
                 <Tab id={tab.id} />
