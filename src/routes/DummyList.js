@@ -15,7 +15,7 @@ const DummyList = () => (
                 </tr>
             </tbody>
         </table>
-        <button onClick={() => redirect('test-react/')}>Back</button>
+        <button onClick={() => redirect('/test-react')}>Back</button>
     </>
 );
 
