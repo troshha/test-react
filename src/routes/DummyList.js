@@ -1,4 +1,4 @@
-import { redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const DummyList = () => (
     <>
@@ -15,7 +15,9 @@ const DummyList = () => (
                 </tr>
             </tbody>
         </table>
-        <button onClick={() => redirect('/test-react')}>Back</button>
+        <button>
+            <Link to={'/test-react'}>Back</Link>
+        </button>
     </>
 );
 
