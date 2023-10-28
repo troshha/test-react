@@ -6,7 +6,11 @@ function App() {
     return (
         <div className="App">
             {tabs.tabs.map((tab) => (
-                <Link to={tab.path} className="link" key={tab.id}>
+                <Link
+                    to={`test-react/${tab.path}`}
+                    className="link"
+                    key={tab.id}
+                >
                     {tab.id}
                 </Link>
             ))}
