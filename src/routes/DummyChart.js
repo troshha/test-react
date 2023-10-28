@@ -16,7 +16,7 @@ const DummyChart = () => (
             </tbody>
         </table>
         <button>
-            <Link to={'/'}>Back</Link>
+            <Link to={'test-react/'}>Back</Link>
         </button>
     </>
 );
